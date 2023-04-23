@@ -4,6 +4,8 @@ import Tabs from '../../components/tabs/Tabs'
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import './homepage.css'
 import Moretext from '../../components/moretext/Moretext';
+import Faqs from '../../components/faqs/Faqs';
+import Footer from '../../components/footer/Footer';
 
 const HomePage = () => {
   const [show, setShow] = useState(false);
@@ -51,8 +53,10 @@ const HomePage = () => {
       <div className="homepage__bottomsection">
         <Tabs/>
         <Moretext/>
+        <Faqs/>
       </div>
-      </div>
+      <Footer/>
+    </div>
   )
 }
 

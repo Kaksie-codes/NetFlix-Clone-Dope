@@ -12,7 +12,7 @@ const Tabs = () => {
   return (
     <section className="tabs">        
         <div className="top">
-            <div className="tabs__container tabs__top-container">
+            <div className="container__small tabs__top-container">
                 <div id="tab-1" className={`tab-item ${toggled === 'tab-1' && 'tab-border'}`} onClick={() => setToggled('tab-1')}>                
                     <FaDoorOpen className="icon"/>
                     <p className="hide-sm">Cancel anytime</p>
@@ -28,8 +28,8 @@ const Tabs = () => {
             </div>
         </div>
 
-        <div class="bottom">
-            <div className={`tabs__container ${toggled === 'tab-1' ? 'show' : ''}`} id="tab-1-content">
+        <div className="bottom">
+            <div className={`container__small ${toggled === 'tab-1' ? 'show' : ''}`} id="tab-1-content">
                 <div  className="tab-content-item">
                     <div className="tab-1-content-inner">
                         <div>
@@ -44,7 +44,7 @@ const Tabs = () => {
             </div>
             
             
-            <div className={`tabs__container ${toggled === 'tab-2' ? 'show' : ''}`} id="tab-2-content">
+            <div className={`container__small ${toggled === 'tab-2' ? 'show' : ''}`} id="tab-2-content">
                 <div  className="tab-content-item">
                     <div className="tab-2-content-top">
                         <h3>
@@ -73,7 +73,7 @@ const Tabs = () => {
             </div>
             
 
-            <div className={`tabs__container ${toggled === 'tab-3' ? 'show' : ''}`} id="tab-3-content">                
+            <div className={`container__small ${toggled === 'tab-3' ? 'show' : ''}`} id="tab-3-content">                
                 <div className="tab-content-item">
                     <div className="text-center">
                         <h3>

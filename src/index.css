@@ -61,16 +61,32 @@ body{
 }
 .container{
     width: 90%;    
-    margin-inline: auto;
-    /* margin: 0 auto; */
+    margin-inline: auto;    
+}
+.container__small{
+    width: 90%;    
+    margin-inline: auto;  
+}
+.container__tiny{
+    width: 90%;    
+    margin-inline: auto;  
+}
+@media screen  and (min-width: 40em){
+    .container__small{
+        width: 70%;
+    }
+    .container__tiny{
+        width: 60%;
+    }
 }
 .text-center{
     text-align: center;
 }
 .logo svg{
     fill: var(--netflix-primary-color);
-    height: 37px;
+    height: 30px;
 }
+
 h1,
 h2,
 h3{
@@ -130,4 +146,10 @@ img {
   }
 .bold{
     font-weight: 500;
+}
+
+@media screen  and (min-width: 48em){
+    .logo svg{
+        height: 37px;
+    }
 }
