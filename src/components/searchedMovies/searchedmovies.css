@@ -1,0 +1,24 @@
+.searched__movies{
+    margin-top: 10rem;    
+}
+.searched__movies-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+    row-gap: 2rem;
+    /* display: flex;
+    width: 92vw;
+    overflow-y: hidden;
+    overflow-x: scroll;    
+    gap: 10px;     
+    scroll-behavior: smooth;    
+    margin-inline: auto;
+    position: relative;
+    z-index: -1; */
+}
+.movieCard{
+    /* width: 250px; */
+    text-align: center;
+    /* max-height: 200px; */
+}

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Logo = () => {
   return (
-    <a href="#" className="logo">
+    <span className="logo">
         <svg viewBox="0 0 111 30" data-uia="netflix-logo" className="svg-icon svg-icon-netflix-logo" aria-hidden="true"
             focusable="false">
             <g id="netflix-logo">
@@ -10,7 +10,7 @@ const Logo = () => {
                 id="Fill-14"></path>
             </g>
         </svg>
-    </a>
+    </span>
   )
 }
 

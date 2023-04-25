@@ -108,12 +108,18 @@ form {
     top: 3px;
     font-size: 0.8rem;
   }
-  
+    
   form input:focus {
     border-bottom: 2px solid var(--netflix-golden-color);
     
   }
-
+  /* form input.has-value + span{
+    top: 3px;
+    font-size: 0.8rem;
+  }
+  form input.has-value{
+    border-bottom: 2px solid var(--netflix-golden-color);
+  } */
 
   .tabs__container{
     width: 90%;

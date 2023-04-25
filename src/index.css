@@ -36,7 +36,7 @@
 /* Desktop */
 @media screen  and (min-width: 80em){
     :root{
-        --fs-xl: 3.5rem;
+        --fs-xl: 3.2rem;
         --fs-lg: 2.25rem;
         --fs-md: 1.75rem;
         --fs-sm: 1.125rem;
